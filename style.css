@@ -1,0 +1,301 @@
+@font-face {
+  font-family: Roboto;
+  src: url("fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Poiret;
+  src: url("fonts/Poiret_One/PoiretOne-Regular.ttf");
+  font-weight: 400;
+}
+html {
+  scroll-behavior: smooth;
+}
+.left_text_quote {
+  color: #DFDFDF;
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: larger;
+  position: absolute;
+  top: 120px;
+  left: 100px;
+  opacity: 80%;
+}
+.quote_author {
+  color: #DFDFDF;
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: larger;
+  position: absolute;
+  top: 180px;
+  left: 100px;
+  opacity: 80%;
+}
+.quote_about_author {
+  color: #DFDFDF;
+  font-family: Roboto;
+  font-weight: 100;
+  font-size: larger;
+  position: absolute;
+  opacity: 80%;
+  left: 685px;
+  top: 1070px;
+}
+.banner_up_text {
+  color: #F2FF61;
+  font-family: Poiret;
+  font-size: 90px;
+  font-weight: 100;
+  position: absolute;
+  left: 350px;
+  top: 300px;
+}
+.about_up_text {
+  color: #DFDFDF;
+  font-family: Poiret;
+  font-size: 90px;
+  font-weight: 100;
+  position: absolute;
+  right: 450px;
+  top: 750px;
+}
+.banner_down_text{
+  color: #F2FF61;
+  font-family: Poiret;
+  font-size: 90px;
+  font-weight: 100;
+  position: absolute;
+  left: 700px;
+  top: 400px;
+}
+.about_down_text {
+  color: #DFDFDF;
+  font-family: Poiret;
+  font-weight: 100;
+  font-size: 19px;
+  position: absolute;
+  top: 940px;
+  right: 300px;
+}
+.banner_line {
+  background-color: #F2FF61;
+  height: 1px;
+  width: 900px;
+  position: absolute;
+  top: 600px;
+  left: 350px;
+}
+body {
+  background: url("images/1674283604_catherineasquithgallery-com-p-serii-fon-dlya-intro-foto-12.jpg");
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.right-image {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  right: 0;
+  top: 60px;
+  border: none;
+}
+.middleright-image {
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  right: 260px;
+  top: 380px;
+  border: none;
+}
+.leftright-image {
+  position: absolute;
+  width: 300px;
+  height: 450px;
+  right: 620px;
+  top: 120px;
+  border: none;
+}
+.about_image {
+  width: 400px;
+  position: absolute;
+  top: 800px;
+  left: 350px;
+  filter: brightness(220%);
+}
+.image_border {
+  border: 1px #FFD700 solid;
+  position: absolute;
+  width: 400px;
+  top: 785px;
+  left: 335px;
+  height: 247px;
+  opacity: 65%;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+.right_line {
+  background-color: #DFDFDF;
+  height: 500px;
+  width: 2px;
+  position: absolute;
+  top: 720px;
+  right: 250px;
+}
+a {
+  color: #F2FF61;
+  text-decoration: none;
+  font-family: Poiret;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+.about_link_1 {
+  position: absolute;
+  top: 635px;
+  left: 350px;
+}
+.about_link_2 {
+  position: absolute;
+  top: 635px;
+  left: 450px;
+}
+.about_link_3 {
+  position: absolute;
+  top: 635px;
+  left: 570px;
+}
+a:hover {
+  color: #DFDFDF;
+}
+.portfolio_bg_images img {
+  width: 200px;
+  position: relative;
+  left: 0;
+  right: 0px;
+  top: 1300px;
+  filter: brightness(70%);
+}
+.portfolio-link {
+  position: absolute;
+  color: #F2FF61;
+  text-align: center;
+  border: 1px solid #FFD700;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  top: 1355px;
+  left: 790px;
+}
+.portfolio-link:hover {
+  color: #ffffff;
+  background-color: #FFD700;
+}
+.uslugi_up_text {
+  color: #DFDFDF;
+  font-family: Poiret;
+  font-size: 50px;
+  font-weight: 100;
+  position: absolute;
+  top: 1450px;
+  left: 130px;
+}
+.individual_photo {
+  width: 350px;
+  position: absolute;
+  top: 1800px;
+  left: 400px;
+}
+.individual_border {
+  width: 250px;
+  height: 390px;
+  border: 1px solid #FFD700;
+  position: absolute;
+  top: 1770px;
+  left: 330px;
+  opacity: 65%;
+}
+.individual_vertical_text {
+  color: #DFDFDF;
+  position: absolute;
+  font-family: Poiret;
+  font-weight: 100;
+  writing-mode: vertical-rl;
+  top: 1800px;
+  font-size: 45px;
+  left: 300px;
+  transform: rotate(180deg);
+}
+.group_photo {
+  position: absolute;
+  width: 350px;
+  top: 2100px;
+  left: 780px;
+}
+.group_border {
+  width: 270px;
+  height: 390px;
+  border: 1px solid #FFD700;
+  position: absolute;
+  top: 1900px;
+  left: 700px;
+  opacity: 65%;
+}
+.group_text {
+  color: #DFDFDF;
+  position: absolute;
+  font-family: Poiret;
+  font-weight: 100;
+  top: 2000px;
+  font-size: 45px;
+  left: 800px;
+}
+.architecture_photo {
+  position: absolute;
+  width: 350px;
+  top: 1700px;
+  left: 920px;
+}
+.architecture_border {
+  width: 270px;
+  height: 390px;
+  border: 1px solid #FFD700;
+  position: absolute;
+  top: 1670px;
+  left: 1050px;
+  opacity: 65%;
+}
+.architecture_text {
+  color: #DFDFDF;
+  position: absolute;
+  font-family: Poiret;
+  font-weight: 100;
+  top: 1592px;
+  font-size: 45px;
+  left: 1100px;
+}
+footer {
+  color: #DFDFDF;
+  position: absolute;
+  text-align: center;
+  left: 800px;
+  top: 2480px;
+}
+.portfolio_text {
+  color: #DFDFDF;
+  position: absolute;
+  font-family: Poiret;
+  font-weight: 100;
+}
+.back {
+  color: #DFDFDF;
+  border: 1px #DFDFDF solid;
+  border-radius: 20px;
+}
+.back:hover {
+  background-color: #DFDFDF;
+  color: #000000;
+  font-style: 900;
+}
