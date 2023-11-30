@@ -1,11 +1,11 @@
 @font-face {
   font-family: Roboto;
-  src: url("fonts/Roboto/Roboto-Regular.ttf");
+  src: url("Roboto-Regular.ttf");
   font-weight: 400;
 }
 @font-face {
   font-family: Poiret;
-  src: url("fonts/Poiret_One/PoiretOne-Regular.ttf");
+  src: url("PoiretOne-Regular.ttf");
   font-weight: 400;
 }
 html {
@@ -86,7 +86,7 @@ html {
   left: 350px;
 }
 body {
-  background: url("images/1674283604_catherineasquithgallery-com-p-serii-fon-dlya-intro-foto-12.jpg");
+  background: url("1674283604_catherineasquithgallery-com-p-serii-fon-dlya-intro-foto-12.jpg");
   position: absolute;
   left: 0;
   top: 0;
