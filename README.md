@@ -1,1 +1,1 @@
-# zakaq.photo.github.io
+# zakaq-photo.github.io
